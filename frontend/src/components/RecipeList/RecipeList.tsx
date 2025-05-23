@@ -28,12 +28,6 @@ export const RecipeList = ({ recipes }: Props) => {
                 <strong>Name: </strong>
                 {recipe.strMeal}
               </p>
-              <p>
-                <strong>Category:</strong> {recipe.strCategory}
-              </p>
-              <p>
-                <strong>Area:</strong> {recipe.strArea}
-              </p>
             </ContentBox>
           </Link>
         </Item>
